@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Header starts */
+header{
+    background-color: #fff;
+}
+
+.hub{
+    color: black;
+    font-family: 'Matura MT Script Capitals';
+}
+.burger-heading{
+    font-family: 'Matura MT Script Capitals';
+    color: #D81F1F;
+}
+.nav-btn{
+    background-color: #D81F1F;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: white;
+}
+.nav-btn:hover{
+    background-color: #FFCC00;
+   
+}
+/* Header ends */
+
+/* Banner starts */
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCC00;
+    
+}
+.banner-one h1{
+text-transform: uppercase;
+color: #D81F1F;
+}
+.banner-btn{
+    padding: 10px 25px;
+    background-color: #D81F1F;
+    border: none;
+    color: white;
+    border-radius: 25px;
+}
+.banner-one p{
+    margin: 35px 0;
+}
+.banner-img{
+    width: 550px;
+    margin-left: 150px;
+}
+
+/* Banner ends */
+/* Burger Starts */
+.burger-one{
+    display: flex;
+    justify-content: space-around;
+
+}
+.burger-card img{
+    background-color: #FFCC00;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.burger-card{
+    display: flex;
+    position: relative;
+    bottom: 30px;
+}
+.burger-cards{
+    margin-left: 50px;
+    margin-left: 50px;
+    display: flex;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px 5px #f3efef;
+    height: 80px;
+    width: 180px;
+}
+.burger-cards h4{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.burger-two{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 120px;
+}
+.burger-bun img{
+    width: 200px;
+
+}
+.burger-bun{
+    background-color: #FFCC00;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.burger-two h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.burger-two p{
+    font-size: 23px;
+    color: gray;
+}
+.burger-two button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #FFCC00;
+    color: white;
+    position: relative;
+    bottom: 77px;
+}
+.burger-two button:hover{
+    background-color: #D81F1F;
+}
+/* Burger ends */
+/* Cards Starts */
+.category h1{
+    text-align: center;
+    font-weight: 600;
+}
+.cat-card{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 130px;
+
+    
+}
+.category{
+    position: relative;
+    top: 120px;
+}
+.cat-cards img{
+    width: 200px;
+    background-color: #FFCC00;
+    border-radius: 50%;
+    position: relative;
+    bottom: 100px;
+}
+.sub img{
+    width: 210px;
+    height: 200px;
+}
+.hot img{
+    height: 210px;
+    width: 210px;
+    padding: 20px;
+}
+figcaption{
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    bottom: 85px;
+
+}
+.cat-cards h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.cat-cards i{
+    color: #FFCC00;
+}
+.cat-cards p{
+    font-size: 20px;
+    color: gray;
+}
+.cat-cards button{
+    padding: 10px 65px;
+    background-color: #FFCC00;
+    color: white;
+    border: none;
+}
+.cat-cards button:hover{
+    background-color: #D81F1F;
+}
+.cat-cards{
+    box-shadow: 3px 3px 3px 3px grey;
+    padding: 20px 25px;
+    height: 350px;
+    
+}
+/* Cards ends */
+/* Comment Starts */
+.comment{
+    display: flex;
+    position: relative;
+    top: 436px;
+    justify-content: space-evenly;
+
+}
+.comment .mint{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: -135px;
+}
+.comment .cabage{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 405px;
+}
+.commentary{
+    position: relative;
+    top: 155px;
+    left: 220px;
+}
+.commentary i{
+    font-size: 60px;
+}
+.commentary p{
+    margin-top: 35px;
+    font-size: 20px;
+    color: gray;
+}
+.commentary h5{
+    margin-top: 34px;
+}
+.commentary .cust{
+    position: relative;
+    bottom: 30px;
+    font-size: 15px;
+}
+.guy{
+    position: relative;
+    top: 50px;
+    left: 145px;
+}
+/* Comment ends */
+/* Playstore Section starts */
+.playstore{
+    position: relative;
+
+}
+.playstore div{
+    position: absolute;
+    top: 850px;
+    left: 515px;
+    background-color: #FFCC00;
+    padding: 20px;
+    border-radius: 35px;
+}
+.app{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.playstore div p{
+   text-align: center;
+   color: gray;
+}
+.playstore img{
+    position: absolute;
+    top: 1040px;
+    left: 630px;
+}
+.app-store{
+    margin-left: 223px;
+}
+/* Playstore Section ends */
+/* Footer Section starts */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 1250px;
+margin-left: 90px;
+}
+.footer-one h3{
+    font-size: 27px;
+}
+.footer-one span{
+    color: #D81F1F;
+}
+.footer li{
+    list-style: none;
+   
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    
+}
+.footer ul{
+   position: relative;
+   right: 30px;
+   line-height: 35px;
+   top: 10px;
+}
+/* Footer Section ends */
+/* Final Starts */
+.end{
+    position: relative;
+    top: 1280px;
+}
+.end div{
+    display: flex;
+    justify-content: space-around;
+}
+.end hr{
+    margin: 30px 154px;
+}
+/* Final ends */
